@@ -1,11 +1,8 @@
-# Address-Book-FastAPI
+# Address Book FastAPI
 
-This project is a minimal Address Book API built with FastAPI and SQLite. 
-The API allows users to create, update, delete, and retrieve addresses. 
-Users can also search for addresses within a specified distance from given coordinates.
+This project is a minimal Address Book API built with FastAPI and SQLite. The API allows users to create, update, delete, and retrieve addresses. Users can also search for addresses within a specified distance from given coordinates.
 
-The application does not include a GUI. 
-Instead, it uses FastAPI's built-in Swagger documentation to test and interact with the API.
+The application does not include a GUI. Instead, it uses FastAPI's built-in Swagger documentation to test and interact with the API.
 
 ---
 
@@ -30,7 +27,9 @@ Before running the application, ensure the following are installed:
 
 Check your Python version:
 
+```
 python --version
+```
 
 ---
 
@@ -38,12 +37,16 @@ python --version
 
 Clone the repository to your local machine:
 
+```
 git clone https://github.com/YOUR_USERNAME/address-book-fastapi.git
+```
 
 Navigate to the project folder:
+
 ```
 cd address-book-fastapi
 ```
+
 ---
 
 # 2. Create a Virtual Environment
@@ -51,14 +54,18 @@ cd address-book-fastapi
 Creating a virtual environment is recommended to isolate project dependencies.
 
 ## Windows
+
 ```
 python -m venv venv
 venv\\Scripts\\activate
 ```
+
 ## Mac / Linux
 
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
 After activation you should see `(venv)` at the start of your terminal line.
 
@@ -67,17 +74,19 @@ After activation you should see `(venv)` at the start of your terminal line.
 # 3. Install Dependencies
 
 Install all required Python packages:
+
 ```
 pip install -r requirements.txt
 ```
+
 Example requirements.txt:
 
-
+```
 fastapi
 uvicorn
 sqlalchemy
 pydantic
-
+```
 
 ---
 
@@ -117,8 +126,9 @@ This opens the interactive Swagger UI where you can test the API endpoints.
 
 Endpoint:
 
-
+```
 POST /addresses
+```
 
 Example request body:
 
@@ -138,9 +148,9 @@ Example request body:
 
 Endpoint:
 
-
+```
 GET /addresses
-
+```
 
 Returns all saved addresses.
 
@@ -150,15 +160,15 @@ Returns all saved addresses.
 
 Endpoint:
 
-
+```
 PUT /addresses/{id}
-
+```
 
 Example:
 
-
+```
 PUT /addresses/1
-
+```
 
 Example request body:
 
@@ -178,15 +188,15 @@ Example request body:
 
 Endpoint:
 
-
+```
 DELETE /addresses/{id}
-
+```
 
 Example:
 
-
+```
 DELETE /addresses/1
-
+```
 
 ---
 
@@ -194,9 +204,9 @@ DELETE /addresses/1
 
 Endpoint:
 
-
+```
 GET /addresses/nearby
-
+```
 
 Query parameters:
 
@@ -206,9 +216,9 @@ Query parameters:
 
 Example request:
 
-
+```
 /addresses/nearby?latitude=14.5995&longitude=120.9842&distance_km=5
-
+```
 
 This returns addresses within the specified distance from the given coordinates.
 
@@ -218,9 +228,9 @@ This returns addresses within the specified distance from the given coordinates.
 
 When the application runs for the first time, it automatically creates a local SQLite database file:
 
-
+```
 addresses.db
-
+```
 
 No manual database configuration is required.
 
@@ -228,7 +238,7 @@ No manual database configuration is required.
 
 # Project Structure
 
-
+```
 address-book-fastapi
 │
 ├── main.py
@@ -238,7 +248,7 @@ address-book-fastapi
 ├── crud.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -246,8 +256,9 @@ address-book-fastapi
 
 To stop the application server, press:
 
+```
 CTRL + C
-
+```
 
 ---
 
