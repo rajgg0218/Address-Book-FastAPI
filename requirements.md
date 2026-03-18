@@ -18,7 +18,7 @@ The address should:
 API Users should also be able to retrieve the addresses that are within a given distance and
 location coordinates.
 
-**Important:** The application does not need a GUI. (Built-in FastAPI’s Swagger Doc is sufficient) --
+**Important:** The application does not need a GUI. (Built-in FastAPI’s Swagger Doc is sufficient)
 
 ---
 
