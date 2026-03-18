@@ -119,7 +119,7 @@ POST /addresses
 
 Example request body:
 
-
+```
 {
   "name": "Home",
   "street": "123 Main Street",
@@ -127,7 +127,7 @@ Example request body:
   "latitude": 14.5995,
   "longitude": 120.9842
 }
-
+```
 
 ---
 
