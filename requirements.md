@@ -1,6 +1,5 @@
 # Python Test
 
----
 
 # Goal
 The goal of this assignment is to demonstrate your existing Python3 skills and how you can create a minimal API using FastAPI.
