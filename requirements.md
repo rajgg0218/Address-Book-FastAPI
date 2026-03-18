@@ -1,23 +1,25 @@
-## Python Test
+# Python Test
 
-Goal
-The goal of this assignment is to demonstrate your existing Python3 skills and how you can
-create a minimal API using FastAPI.
+---
 
-Assignment
+#Goal
+The goal of this assignment is to demonstrate your existing Python3 skills and how you can create a minimal API using FastAPI.
 
-Create an address book application where API users can create, update and delete
-addresses.
+---
+
+#Assignment
+
+Create an address book application where API users can create, update, and delete addresses.
 
 The address should:
-- contain the coordinates of the address.
-- be saved to an SQLite database.
-- be validated
+* contain the coordinates of the address.
+* be saved to an SQLite database.
+* be validated
 
 API Users should also be able to retrieve the addresses that are within a given distance and
 location coordinates.
 
-Important: The application does not need a GUI. (Built-in FastAPI’s Swagger Doc is sufficient)
+-- Important: The application does not need a GUI. (Built-in FastAPI’s Swagger Doc is sufficient) --
 
 Delivery
 
