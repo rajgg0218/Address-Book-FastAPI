@@ -36,4 +36,6 @@ Do also provide an explanation on how to execute the app, including the exact te
 The code will be reviewed based on structure, logging, libraries used, comments, and other
 best practices related to Python and FastAPI.
 
-Good luck
+---
+
+Good luck!
