@@ -41,9 +41,9 @@ Clone the repository to your local machine:
 git clone https://github.com/YOUR_USERNAME/address-book-fastapi.git
 
 Navigate to the project folder:
-
+```
 cd address-book-fastapi
-
+```
 ---
 
 # 2. Create a Virtual Environment
@@ -51,10 +51,10 @@ cd address-book-fastapi
 Creating a virtual environment is recommended to isolate project dependencies.
 
 ## Windows
-
+```
 python -m venv venv
 venv\\Scripts\\activate
-
+```
 ## Mac / Linux
 
 python3 -m venv venv
@@ -67,10 +67,9 @@ After activation you should see `(venv)` at the start of your terminal line.
 # 3. Install Dependencies
 
 Install all required Python packages:
-
+```
 pip install -r requirements.txt
-
-
+```
 Example requirements.txt:
 
 
@@ -86,13 +85,15 @@ pydantic
 
 Start the API server using Uvicorn:
 
-
+```
 uvicorn main:app --reload
-
+```
 
 Expected output:
 
+```
 Uvicorn running on http://127.0.0.1:8000
+```
 
 The API server is now running.
 
@@ -102,7 +103,9 @@ The API server is now running.
 
 Open the following URL in your browser:
 
+```
 http://127.0.0.1:8000/docs
+```
 
 This opens the interactive Swagger UI where you can test the API endpoints.
 
@@ -159,7 +162,7 @@ PUT /addresses/1
 
 Example request body:
 
-
+```
 {
   "name": "Updated Home",
   "street": "456 New Street",
@@ -167,7 +170,7 @@ Example request body:
   "latitude": 14.676,
   "longitude": 121.0437
 }
-
+```
 
 ---
 
