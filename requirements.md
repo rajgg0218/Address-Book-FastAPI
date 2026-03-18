@@ -1,12 +1,12 @@
 # Python Test
 
 
-# Goal
+### Goal
 The goal of this assignment is to demonstrate your existing Python3 skills and how you can create a minimal API using FastAPI.
 
 ---
 
-# Assignment
+### Assignment
 
 Create an address book application where API users can create, update, and delete addresses.
 
@@ -20,7 +20,7 @@ location coordinates.
 
 -- Important: The application does not need a GUI. (Built-in FastAPI’s Swagger Doc is sufficient) --
 
-Delivery
+### Delivery
 
 Option A: Provide a link to a public repository where we can download the code containing
 all files.
@@ -28,7 +28,7 @@ all files.
 Do also provide an explanation on how to execute the app, including the exact
 terminal commands.
 
-Review
+### Review
 
 The code will be reviewed based on structure, logging, libraries used, comments, and other
 best practices related to Python and FastAPI.
