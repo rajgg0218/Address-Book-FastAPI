@@ -20,12 +20,16 @@ location coordinates.
 
 **Important:** The application does not need a GUI. (Built-in FastAPI’s Swagger Doc is sufficient) --
 
+---
+
 ### Delivery
 
 **Option A:** Provide a link to a public repository where we can download the code containing
 all files.
 
 Do also provide an explanation on how to execute the app, including the exact terminal commands.
+
+---
 
 ### Review
 
